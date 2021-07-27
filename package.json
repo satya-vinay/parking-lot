@@ -1,0 +1,26 @@
+{
+  "name": "parking-lot",
+  "version": "1.0.0",
+  "description": "parking lot",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "parkingLot": "node ./dist/index.js",
+    "test": "jest",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.3.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
